@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Saviessa landing page</title>
+
+</head>
+
+<body>
+    <section class="saviessa-navbar bg-light d-flex flex-column">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-sticky">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/saviessa.image/logo.png" class="logo-img mt-2 ms-5" alt="logo name"
+                        style="width:123px; height:82px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"> </div>
+                <div class="collapse navbar-collapse text-dark bg-white  navbar-type" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-2 me-2">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark me-4 ms-4" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Homeowner
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-dark" href="#">Name</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">Address</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">Contact Number</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-4 ms-4"><a class="nav-link text-dark" href="#">Architect/Interior
+                                Design</a>
+                        </li>
+                        <li class="nav-item me-4 ms-4"><a class="nav-link text-dark" href="#">Builder</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="first-section py-5">
+        <div class="container-fluid">
+            <div class="row align-items-center g-0">
+                <div class="col-12 col-lg-4 col-md-5  d-flex flex-column justify-content-center align-items-center">
+                    <div class="form-content text-center d-flex flex-column align-items-center p-4 text-light"
+                        style="width:499px; height:615px">
+                        <div class="form">
+                            <img src="/saviessa.image/Path 3.png" class="rectangle-img mb-3"
+                                style="width:400px ; height:auto" alt="rectangle-image">
+                            <p class="text-light mb-1 text-1">Astonishing Modular Kitchen
+                                Designs.</p>
+                            <p class="text-light  text-2"><b>Choose The Best!</b></p>
+                        </div>
+                        <div class="form-1 mt-4">
+                            <form class="form-box mx-auto" style="width:88%; height:465px">
+
+                                <div class="form-subtitle mb-3" style="width:370px">
+                                    <p class="text-3 text-center mb-0"><b>Our experts are here for you!<br>Get all your
+                                            queries
+                                            answered.</b></p>
+                                </div>
+
+                                <label for="name d-block">Name<span class="text0 text-danger">*</span></label>
+                                <input type="text" class="blurredinput ps-4" style="width:100%; height:38px"
+                                    placeholder="Enter your full name" required>
+
+                                <label for="email d-block">Email<span class="text0 text-danger">*</span></label>
+                                <input type="email" class="blurredinput ps-4 " style="width:100%; height:38px"
+                                    placeholder="Enter your email address" required>
+
+                                <label for="phone d-block">Phone No<span class="text0 text-danger">*</span></label>
+                                <div class="phone-box">
+                                    <span class="country-code">+91</span>
+                                    <input type="tel" class="blurredinput ps-2 " style="width:100%; height:38px"
+                                        placeholder="Enter your 10-digit contact number" maxlength="10" required>
+                                </div>
+                                <label for="city d-block">City<span class="text0 text-danger">*</span></label>
+                                <input type="text" class="city  mb-4 ps-4" style="width:100%; height:38px"
+                                    id="blurredinput" placeholder="Enter your city" required>
+                                <button type="submit" class="sub-btn position-relative text-light d-block"
+                                    style="width:150px; height:38px">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 col-md-7 p-0 carousel-slide">
+                    <div id="kitchenCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="/saviessa.image/kitchen.png" class="d-block w-100" alt="Kitchen 1">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="/saviessa.image/kitchen.png" class="d-block w-100" alt="Kitchen 2">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="/saviessa.image/kitchen.png" class="d-block w-100" alt="Kitchen 3">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="/saviessa.image/kitchen.png" class="d-block w-100" alt="Kitchen 4">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev position-absolute" type="button"
+                            data-bs-target="#kitchenCarousel" data-bs-slide="prev">
+                            <div class="nav-btn">
+                                <img src="/saviessa.image/Ellipse 1.png"
+                                    class="ellipse justify-content-center position-absolute">
+                                <img src="/saviessa.image/Icon awesome-arrow-down (1).png"
+                                    class="arrow arrow-left position-absolute" alt="Prev">
+                            </div>
+                        </button>
+
+                        <button class="carousel-control-next position-absolute" type="button"
+                            data-bs-target="#kitchenCarousel" data-bs-slide="next">
+                            <div class="nav-btn">
+                                <img src="/saviessa.image/Ellipse 2.png"
+                                    class="ellipse justify-content-center position-absolute">
+                                <img src="/saviessa.image/icon arrow.png" class="arrow arrow-right position-absolute "
+                                    alt="Next">
+                            </div>
+                        </button>
+
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#kitchenCarousel" data-bs-slide-to="0" class="active">
+                                <img src="/saviessa.image/Ellipse 3.png" class="dot">
+                            </button>
+                            <button type="button" data-bs-target="#kitchenCarousel" data-bs-slide-to="1">
+                                <img src="/saviessa.image/Ellipse 4.png" class="dot">
+                            </button>
+                            <button type="button" data-bs-target="#kitchenCarousel" data-bs-slide-to="2">
+                                <img src="/saviessa.image/Ellipse 5.png" class="dot">
+                            </button>
+                            <button type="button" data-bs-target="#kitchenCarousel" data-bs-slide-to="3">
+                                <img src="/saviessa.image/Ellipse 6.png" class="dot">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="second-section mt-2">
+        <div class="container">
+            <p class="text-4 text-start fs-1">Our Popular Modular Kitchen Designs</p>
+            <div class="row  row-cols-1 row-cols-md-2 g-4 justify-content-center g-4 py-4 ">
+                <div class=" col d-flex justify-content-center">
+                    <div class="card kitchen-card border-0 d-flex align-items-center justify-content-between">
+                        <img src="/saviessa.image/kitchen1.png" class="card-img-top saviessa-card"
+                            style="width: 100%; height:auto" alt="...">
+                        <div class="card-body text-light d-flex flex-row justify-content-between"
+                            style="width: 100%; height:50px">
+                            <h5 class="card-title fs-5"> L-Shaped Modular Kitchens</h5>
+                            <span class="text-light">Explore designs</span>
+                            <div class="iconImage">
+                                <img src="/saviessa.image/Icon awesome arrow.png" alt="arrow"
+                                    class="arrow-img color-light" style="width:18px;height:18px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="card kitchen-card border-0 d-flex align-items-center justify-content-between">
+                        <img src="/saviessa.image/kitchen2.png" class="card-img-top saviessa-card"
+                            style="width: 100%; height:auto" alt="...">
+                        <div class="card-body text-light d-flex flex-row justify-content-between"
+                            style="width: 100%; height:50px">
+                            <h5 class="card-title  fs-5"> U-Shaped Modular Kitchens</h5>
+                            <span class="text-light">Explore designs</span>
+                            <div class="iconImage">
+                                <img src="/saviessa.image/Icon awesome arrow.png" alt="arrow"
+                                    class="arrow-img color-light" style="width:18px;height:18px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div
+                        class="card kitchen-card border-0 d-flex flex-column align-items-center justify-content-between">
+                        <img src="/saviessa.image/kitchen3.png" class="card-img-top saviessa-card"
+                            style="width: 100%; height:auto" alt="...">
+                        <div class="card-body text-light d-flex flex-row justify-content-between "
+                            style="width: 100%; height:50px">
+                            <h5 class="card-title fs-5  ">Parallel Modular Kitchens
+                            </h5>
+                            <span class="text-light ">Explore designs</span>
+                            <div class="iconImage d-flex align-items-center justify-content-end">
+                                <img src="/saviessa.image/Icon awesome arrow.png" alt="arrow"
+                                    class="arrow-img color-light" style="width:18px;height:18px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="card kitchen-card border-0 d-flex align-items-center justify-content-between">
+                        <img src="/saviessa.image/kitchen4.png" class="card-img-top saviessa-card"
+                            style="width: 100%; height:auto" alt="...">
+                        <div class="card-body text-light d-flex flex-row justify-content-between"
+                            style="width: 100%; height:50px">
+                            <h5 class="card-title fs-5">Island Modular Kitchens</h5>
+                            <span class="text-light">Explore designs</span>
+                            <div class="iconImage">
+                                <img src="/saviessa.image/Icon awesome arrow.png" alt="arrow"
+                                    class="arrow-img color-light" style="width:18px;height:18px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="third-section py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col">
+                    <p class="text-5 fs-2 text-start ">3 Exciting Innovations, only from Saviesa</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="card saviessa-card text-center position-relative  border-0 bg-transparent"
+                        style="width:380px;height: 838px;">
+                        <img src="/saviessa.image/viewer.png" alt="viewer" class="viewer-img-top img-fluid"
+                            style="width:359px ; height:auto">
+                        <div class="viewerimage-num position-relative">
+                            <img src="/saviessa.image/dream viewer.png" alt="viewer-banner"
+                                class="viewerImage img-fluid" style="width:317px; height:342px">
+                            <img src="/saviessa.image/Line 2.png" alt="line" class="line img-fluid position-relative">
+                            <div class="badge-wrap position-absolute d-flex align-items-center justify-content-center"
+                                style="width:44px; height:44px">
+                                <img src="/saviessa.image/Ellipse 7.png"
+                                    class="eclipseImg img-fluid position-absolute"><span
+                                    class="number fs-2 position-absolute text-light">7</span>
+                            </div>
+                        </div>
+                        <div class="card-body saviessa-cardBody text-start">
+
+                            <p class="text-6 text-start fs-5">Choose your kitchen's shape, size and colour.</p>
+                            <img src="/saviessa.image/Icon awesome-check.png" alt="icon-check"
+                                class="check-icon position-relative left-0" style="width:16px;height:12px">
+                            <p class="text-7 text-start fs-6">The app shows how the kitchen you like will look, in a
+                                shape and size,as close as possible to your actual kitchen.</p>
+                            <img src="/saviessa.image/Icon awesome-check.png" alt="icon-check" class="check-icon"
+                                style="width:16px;height:12px">
+                            <p class="text-7 text-start fs-6">Know what the approximate cost will be, and how that cost
+                                changes based on the different options you select.</p>
+                            <img src="/saviessa.image/Icon awesome-check.png" alt="icon-check" class="check-icon"
+                                style="width:16px;height:12px">
+                            <p class="text-7 text-start fs-6">It showcases 350 kitchen designs in different shapes and
+                                sizes and material configuration.</p>
+                            <button class="viewer-btn text-light fs-6 d-flex justify-content-center align-items-center"
+                                style="width: 244px; height:45px;">Download
+                                Catologue</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 d-flex justify-content-center">
+                    <div class="card saviessa-card text-center position-relative  border-0 bg-transparent"
+                        style="width:380px;height: 838px;">
+                        <img src="/saviessa.image/builder.png" alt="viewer" class="viewer-img-top img-fluid"
+                            style="width:359px ; height:auto">
+                        <div class="viewerimage-num position-relative">
+                            <img src="/saviessa.image/dream builder.png" alt="viewer-banner"
+                                class="viewerImage img-fluid" style="width:317px; height:342px">
+                            <img src="/saviessa.image/Line 2.png" alt="line" class="line img-fluid position-relative">
+                            <div class="badge-wrap position-absolute d-flex align-items-center justify-content-center"
+                                style="width:44px; height:44px">
+                                <img src=" /saviessa.image/Ellipse 7.png"
+                                    class="eclipseImg image img-fluid position-absolute">
+                                <span class="number fs-2 position-absolute text-light">8</span>
+                            </div>
+                        </div>
+
+                        <div class="card-body saviessa-cardBody text-start">
+                            <p class="text-6 fs-5">Choose your kitchen's shape, size and colour.</p>
+                            <img src="/saviessa.image/Icon awesome-check.png" alt="icon-check" class="check-icon"
+                                style="width:16px;height:12px">
+                            <p class="text-7 fs-6">Visualise your finished kitchen in life size and in 3D.</p>
+                            <img src="/saviessa.image/Icon awesome-check.png" alt="icon-check" class="check-icon"
+                                style="width:16px;height:12px">
+                            <p class="text-7 fs-6">
+                                Coordinate the wall colour, the shutter for your wall cabinet, the dado, the
+                                countertop, the shutter for your base cabinet and the skirting.</p>
+                            <img src="/saviessa.image/Icon awesome-check.png" alt="icon-check" class="check-icon"
+                                style="width:16px;height:12px">
+                            <p class="text-7 fs-6">The important task of design coordination becomes easy and quick, and
+                                enjoyable as well.</p>
+                            <button class="viewer1-btn text-light fs-6 d-flex justify-content-center align-items-center"
+                                style="width: 244px; height:45px;">Book a home
+                                visit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 d-flex justify-content-center">
+                    <div class="card saviessa-card text-center position-relative  border-0 bg-transparent"
+                        style="width:380px;height: 838px;">
+                        <img src="/saviessa.image/player.png" alt="viewer" class="viewer-img-top img-fluid"
+                            style="width:359px ; height:auto">
+                        <div class="viewerimage-num position-relative">
+                            <img src="/saviessa.image/dream player.png" alt="viewer-banner"
+                                class="viewerImage img-fluid" style="width:317px; height:342px">
+                            <img src="/saviessa.image/Line 2.png" alt="line" class="line img-fluid position-relative">
+                            <div class="badge-wrap position-absolute d-flex align-items-center justify-content-center"
+                                style="width:44px; height:44px"">
+                                <img src=" /saviessa.image/Ellipse 9.png"
+                                class="eclipseImg img-fluid position-absolute">
+                                <span class="number fs-2 position-absolute text-light">9</span>
+                            </div>
+                        </div>
+                        <div class="card-body saviessa-cardBody text-start">
+                            <p class="text-6 fs-5">Choose your kitchen's shape, size and colour.</p>
+                            <img src="/saviessa.image/Icon awesome-check.png" alt="icon-check" class="check-icon"
+                                style="width:16px;height:12px">
+                            <p class="text-7 fs-6">The app makes the planning of your kitchen fast and easy.</p>
+                            <img src="/saviessa.image/Icon awesome-check.png" alt="icon-check" class="check-icon"
+                                style="width:16px;height:12px">
+                            <p class="text-7 fs-6">It records all your needs and requirements, and plans your kitchen
+                                using the
+                                5-zone concept.</p>
+                            <img src="/saviessa.image/Icon awesome-check.png" alt="icon-check" class="check-icon"
+                                style="width:16px;height:12px">
+                            <p class="text-7 fs-6">The app prepares a detailed design brief of your dream kitchen.</p>
+                            <img src="/saviessa.image/Icon awesome-check.png" alt="icon-check" class="check-icon"
+                                style="width:16px;height:12px">
+                            <p class="text-7 fs-6">Also, you get to see how the various accessories look and function
+                                through
+                                interesting videos.</p>
+                            <button class="viewer2-btn text-light fs-6 d-flex justify-content-center align-items-center"
+                                style="width: 244px; height:45px;">Schedule a
+                                store visit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="four-section position-relative py-5">
+
+        <div class="container">
+
+            <h2 class="text-8 mb-5">Our Distinctive Features</h2>
+            <div class="pathImg"></div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="feature-card mt-5 d-flex flex-column align-items-center justify-content-center ">
+                        <div class="circle position-relative d-flex flex-column align-items-center justify-content-center"
+                            style="width:178px ; height:178px">
+                            <img src="/saviessa.image/Group 71.png" alt="Modular Kitchen" />
+                        </div>
+                        <p class="text-9 text-center text-light position-relative">Experts in Modular Kitchen<br> Design
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="feature-card mt-5 d-flex flex-column align-items-center justify-content-center">
+                        <div class="circle position-relative d-flex flex-column align-items-center justify-content-center "
+                            style="width:178px ; height:178px">
+                            <img src="/saviessa.image/Group 67.png" alt="7 Year Warranty" />
+                        </div>
+                        <p class="text-9 text-center text-light position-relative">7 Year Warranty*</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="feature-card mt-5 d-flex flex-column align-items-center justify-content-center">
+                        <div class="circle position-relative d-flex flex-column align-items-center justify-content-center "
+                            style="width:178px ; height:178px">
+                            <img src=" /saviessa.image/Group 72.png" alt="Reliable Services" />
+                        </div>
+                        <p class="text-9 text-center text-light position-relative">Reliable Products & Services</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="feature-card mt-5 d-flex flex-column align-items-center justify-content-center">
+                        <div class="circle position-relative d-flex flex-column align-items-center justify-content-center "
+                            style="width:178px ; height:178px">
+                            <img src=" /saviessa.image/Group 73.png" alt="Installation" />
+                        </div>
+                        <p class="text-9 text-center text-light position-relative">Installation in 45 Working <br>Days*
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="five-section py-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col">
+                    <p class="text-10 fs-2 text-dark mt-2 pb-2">Customer Experiences </p>
+                </div>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-12 col-md-6 d-flex flex-row justify-content-center">
+                    <div class="card video-card position-relative g-4 mt-2" style="width:551px; height:380px">
+                        <div class="wrapper">
+                            <img src="/saviessa.image/youtube1.png"
+                                class="card-img-top img-fluid you-image position-relative" alt="video"
+                                style="width:551px; height:351px">
+                            <img src="/saviessa.image/Ellipse 10.png" class="eclipseImage img-fluid position-absolute"
+                                alt="eclipse" style="width:72px ; height:72px">
+                            <img src="/saviessa.image/Polygon 1.png" class="polygon img-fluid position-absolute"
+                                style="width: 28px; height:28px" alt="polygon1"
+                                data-video="https://www.youtube.com/embed/c_FjIggQjN8">
+                        </div>
+                        <div class="card-body body">
+                            <p class="card-text text-light text-11 mb-0 left-0">Actress Ila Bhate Shares her Experience
+                                with
+                                Saviesa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center ">
+                    <div class="card video-card position-relative  g-4" style="width:551px; height:380px">
+                        <div class="wrapper1">
+                            <img src="/saviessa.image/youtube2.png"
+                                class="card-img-top img-fluid you-image position-relative" alt="video1"
+                                style="width:551px; height:351px">
+                            <img src="/saviessa.image/Ellipse 11.png" class="eclipseImage img-fluid position-absolute"
+                                alt="eclipse" style="width:72px ; height:72px">
+                            <img src="/saviessa.image//Polygon 2.png" class="polygon img-fluid position-absolute"
+                                style="width: 28px; height:28px" alt="polygon1"
+                                data-video1="https://www.youtube.com/embed/K8l7EDXk_bk?si=xlsZzkSPZSX1XGHY">
+                        </div>
+                        <div class="card-body body">
+                            <p class="card-text text-light text-11 mb-0 left-0">Saviesa's Happy Customer shares his
+                                experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="six-section py-5">
+        <div class="container px-0 px-md-0 px-lg-0">
+            <div class="swiper mySwiper mb-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide mt-2 mb-2">
+                        <div class="card">
+                            <img src=" /saviessa.image/Rectangle 65.png" alt="rectangleImg"
+                                class="img-fluid rectangleImg  text-center position-absolute"
+                                style="width:290px; height:312px">
+                            <img src="/saviessa.image/Path 2.png" alt="quote"
+                                class="quoteImg img-fluid mb-2 position-absolute">
+                            <div class="card-body">
+                                <h5 class="card-title position-absolute text-dark">"Responsive Team"</h5>
+
+                                <p class="card-text position-absolute text-start text-dark">Overall Experience was
+                                    really very
+                                    good. There was proactive
+                                    response to all my requirements... <span class="read-more">Read More</span></p>
+                                <h6 class="card-subtitle mb-2  position-absolute">
+                                    Sachin Mehta</h6>
+                                <img src="/saviessa.image/Icon awesome-google.png" alt="google icon"
+                                    class="google-icon position-relative ">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mt-2 mb-2 ">
+                        <div class="card">
+                            <img src=" /saviessa.image/Rectangle 65.png" alt="rectangleImg"
+                                class="img-fluid rectangleImg text-center position-absolute mb-4"
+                                style="width:290px; height:312px">
+                            <img src="/saviessa.image/Path 2.png" alt="quote"
+                                class="quoteImg img-fluid mb-2 position-absolute">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark text-center position-absolute">"Has latest Features"
+                                </h5>
+
+                                <p class="card-text text-dark text-start position-absolute">We got 100% customer
+                                    satisfaction
+                                    from
+                                    Saviesa for our new modular
+                                    kitchen. Excellent latest concepts, quality and finishing of products. We are...
+                                    <span class="read-more">Read More</span>
+                                </p>
+                                <h6 class="card-subtitle mb-2   position-absolute ">
+                                    Mukesh Dungwal</h6>
+                                <img src="/saviessa.image/Icon awesome-google.png" alt="google icon"
+                                    class="google-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mt-2 mb-2">
+                        <div class="card">
+                            <img src="/saviessa.image/Rectangle 65.png" alt="rectangleImg"
+                                class="img-fluid rectangleImg  position-absolute" style="width:290px; height:312px">
+                            <img src="/saviessa.image/Path 2.png" alt="quote"
+                                class="quoteImg img-fluid mb-2 position-absolute">
+                            <div class="card-body">
+                                <h5 class="card-title position-absolute text-dark">"Patient and Helpful Staff"</h5>
+
+                                <p class="card-text position-absolute text-start ">Nisa at the store is extremely
+                                    fabulous, helpful, knowledgeable and
+                                    hard working. She spent countless hours in designing our kitchen and was
+                                    extremely... <span class="read-more">Read More</span></p>
+                                <h6 class="card-subtitle mb-2 position-absolute ">
+                                    Ashish Madan</h6>
+                                <img src="/saviessa.image/Icon awesome-google.png" alt="google icon"
+                                    class="google-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon  position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon  position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon  position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mt-2 mb-2 ">
+                        <div class="card">
+                            <img src=" /saviessa.image/Rectangle 65.png" alt="rectangleImg"
+                                class="img-fluid rectangleImg text-center position-absolute"
+                                style="width:290px; height:312px">
+                            <img src="/saviessa.image/Path 2.png" alt="quote"
+                                class="quoteImg img-fluid mb-2 position-absolute">
+                            <div class="card-body">
+                                <h5 class="card-title position-absolute text-dark">"Responsive Team"</h5>
+
+                                <p class="card-text position-absolute text-start text-dark">Overall Experience was
+                                    really very
+                                    good. There was proactive
+                                    response to all my requirements... <span class="read-more">Read More</span></p>
+                                <h6 class="card-subtitle mb-2  position-absolute ">
+                                    Sachin Mehta</h6>
+                                <img src="/saviessa.image/Icon awesome-google.png" alt="google icon"
+                                    class="google-icon position-relative ">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mt-2 mb-2">
+                        <div class="card">
+                            <img src=" /saviessa.image/Rectangle 65.png" alt="rectangleImg"
+                                class="img-fluid rectangleImg text-center position-absolute "
+                                style="width:300px; height:312px">
+                            <img src="/saviessa.image/Path 2.png" alt="quote"
+                                class="quoteImg img-fluid mb-2 position-absolute">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark position-absolute">"Has latest Features"</h5>
+
+                                <p class="card-text text-dark text-start position-absolute">We got 100% customer
+                                    satisfaction
+                                    from
+                                    Saviesa for our new modular
+                                    kitchen. Excellent latest concepts, quality and finishing of products. We are...
+                                    <span class="read-more">Read More</span>
+                                </p>
+                                <h6 class="card-subtitle mb-2  position-absolute ">
+                                    Mukesh Dungwal</h6>
+                                <img src="/saviessa.image/Icon awesome-google.png" alt="google icon"
+                                    class="google-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                                <img src="/saviessa.image/Icon awesome-star.png" alt="star icon"
+                                    class="star-icon position-relative">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next">
+                    <img src="/saviessa.image/Ellipse 1.png" alt="eclipse"
+                        class="swiper-eclipse img-fluid position-relative">
+                    <img src="/saviessa.image/icon arrow.png" class="swiper-arrow img-fluid position-absolute">
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="/saviessa.image/Ellipse 1.png" alt="eclipse"
+                        class="swiper-eclipse img-fluid position-relative">
+                    <img src="/saviessa.image/Icon awesome-arrow-down (1).png"
+                        class="swiper-arrow img-fluid position-absolute">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="seven-section py-5 mt-5 mb-5 d-flex justify-content-center">
+        <div class="container  justify-content-center">
+            <div class="row">
+                <p class="text-15 fs-2 text-start">Frequently Asked Questions</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex align-items-start justify-content-between mt-4">
+                        <p class="text-16 position-absolute fs-6 fw-bold">Company and credentials</p>
+                        <div class="nav nav-col flex-column nav-pills me-3 mt-4" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+
+                            <button class="nav-link active mt-4" id="v-pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                                aria-selected="true">
+                                <img src="/saviessa.image/Polygon 3.png" alt="polygon2"
+                                    class="tab-polygon position-absolute">
+                                <p class="text-18 text-start fs-6">Price, Pricing & Terms</p>
+                            </button>
+                            <img src="/saviessa.image/Line 5.png" alt="tab-line" class="tab-line position-relative">
+                            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-profile" type="button" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="false">
+                                <img src="/saviessa.image/Polygon 3.png" alt="polygon2"
+                                    class="tab-polygon position-absolute">
+                                <p class="text-18 text-start fs-6">Site Visit</p>
+                            </button>
+                            <img src="/saviessa.image/Line 5.png" alt="tab-line" class="tab-line position-relative">
+                            <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-disabled" type="button" role="tab"
+                                aria-controls="v-pills-disabled" aria-selected="false">
+                                <img src="/saviessa.image/Polygon 3.png" alt="polygon2"
+                                    class="tab-polygon position-absolute">
+                                <p class="text-18 text-start fs-6">Warranty & After Sales
+                                    Service</p>
+                            </button>
+                            <img src="/saviessa.image/Line 5.png" alt="tab-line" class="tab-line position-relative">
+                            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-messages" type="button" role="tab"
+                                aria-controls="v-pills-messages" aria-selected="false">
+                                <img src="/saviessa.image/Polygon 3.png" alt="polygon2"
+                                    class="tab-polygon position-absolute">
+                                <p class=" text-18 text-start fs-6">Products, Product Range &
+                                    Materials</p>
+                            </button>
+                            <img src="/saviessa.image/Line 5.png" alt="tab-line" class="tab-line position-relative">
+                            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-settings" type="button" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false">
+                                <img src="/saviessa.image/Polygon 3.png" alt="polygon2"
+                                    class="tab-polygon position-absolute">
+                                <p class=" text-18 text-start fs-6">Delivery & Logistics</p>
+                            </button>
+                            <img src="/saviessa.image/Line 5.png" alt="tab-line" class="tab-line position-relative">
+                            <button class="nav-link" id="v-pills-work-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-work" type="button" role="tab" aria-controls="v-pills-work"
+                                aria-selected="false">
+                                <img src="/saviessa.image/Polygon 3.png" alt="polygon2"
+                                    class="tab-polygon position-absolute">
+                                <p class="text-18 text-start fs-6">Scope of Work & Services</p>
+                            </button>
+                            <img src="/saviessa.image/Line 5.png" alt="tab-line" class="tab-line position-relative">
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-flex-end justify-content-center">
+                    <div class="tab-content mt-4" id="v-pills-tabContent" style="width:818px">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab" tabindex="0">
+                            <p class="text-16">Company and credentials</p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" style="height:55px" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <p class="text-19 text-start mt-2">1. Why should I go for Saviesa,
+                                                as it is new in the market?</p>
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="acordion-body">
+                                            <p class="text-17">Saviesa is a company founded by the people who
+                                                pioneered modular kitchens in India. This is the second company they
+                                                have
+                                                started. The founders have combined experience of 80 years in this
+                                                field and
+                                                are hands-on in design, manufacturing, marketing and operations.
+                                                Each of
+                                                their dealers has over 10-15 years' experience in the field. Saviesa
+                                                has its own facilities and manufacturing, which most of the older
+                                                players in this field and even the ecommerce companies do not have.
+                                                Hence you
+                                                can be sure Saviesa can deliver on its commitments. The designs of
+                                                Saviesa are new and contemporary. Their products use the best of
+                                                international techniques and materials as incorporated by the
+                                                Founders. The roots
+                                                of Saviesa are in the values and customer focus of its Founders and
+                                                staff. We approach your needs and aspirations differently from other
+                                                companies who entered the field earlier. Indeed, our whole design
+                                                and
+                                                operating principles are built around you and your aspirations. We
+                                                will be
+                                                happy to email you a leaflet on the values of Saviesa (click here
+                                                please. A visit to one of our stores will make the difference come
+                                                alive for
+                                                you.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-4">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" style="height:55px" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <p class="text-19 text-start mt-2">2. Do you manufacture your products
+                                                or source them
+                                                from elsewhere?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-17">Saviesa manufactures its own products in its
+                                                state-of-the-art facilities.
+                                                We believe in maintaining complete control over quality and
+                                                craftsmanship.
+                                                All our kitchens and wardrobes are made using advanced European
+                                                technology.
+                                                Our team of experts ensures every product meets international
+                                                quality standards.
+                                                We source only premium materials and fittings from trusted global
+                                                partners.
+                                                Unlike many others, we do not depend on third-party manufacturers.
+                                                This allows us to offer customized designs suited to every
+                                                customer’s needs.
+                                                Our in-house production ensures timely delivery and consistent
+                                                finish.
+                                                Every product goes through strict quality checks before
+                                                installation.
+                                                At Saviesa, manufacturing in-house is our way to ensure perfection
+                                                and reliability.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <p class="text-16">Site Visiting</p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" style="height:55px" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <p class="text-19 text-start mt-2">1. Do you provide a site visit before
+                                                starting the
+                                                design process?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body ">
+                                            <p class="text-17">Yes, Saviesa provides a comprehensive site visit
+                                                before the design process begins.
+                                                Our expert design team personally visits your home to understand the
+                                                space better.
+                                                During the visit, we take accurate measurements of the kitchen or
+                                                wardrobe area.
+                                                We also assess plumbing, electrical, and structural details of the
+                                                site.
+                                                This ensures our designs are technically perfect and practically
+                                                feasible.
+                                                Our team discusses your needs, preferences, and lifestyle to
+                                                customize the plan.
+                                                We use this visit to suggest innovative layouts and design
+                                                solutions.
+                                                It also helps us identify any challenges or modifications needed
+                                                early on.
+                                                The site visit forms the foundation for a smooth and error-free
+                                                installation.
+                                                At Saviesa, every project starts with a professional and insightful
+                                                site evaluation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-4">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" style="height: 55px;" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <p class="text-19 text-start mt-2">2. Is there any charge for the site
+                                                visit, and what
+                                                can I expect during it?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-17">Our first site visit is usually complimentary, as
+                                                part of our service promise.
+                                                During the visit, our experts inspect and document every key
+                                                measurement.
+                                                They check wall alignment, flooring level, and service points for
+                                                accuracy.
+                                                You can expect the team to share practical suggestions to enhance
+                                                design flow.
+                                                We also provide a preview of design options based on your space and
+                                                budget.
+                                                If additional technical visits are required, they are scheduled
+                                                conveniently for you.
+                                                Our representatives maintain complete transparency about any extra
+                                                costs, if applicable.
+                                                We ensure the visit is efficient, friendly, and informative for
+                                                homeowners.
+                                                The goal is to make you fully confident about your design and layout
+                                                decisions.
+                                                With Saviesa, every site visit is a step toward a beautifully
+                                                executed space.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
+                            aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                            <p class="text-16">Sales Services</p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" style="height: 55px;" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <p class="text-19 text-start mt-2">1. Why should I go for Saviesa, as it
+                                                is new in the
+                                                market?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-17">Saviesa offers a comprehensive warranty on all its
+                                                modular kitchen and wardrobe products.
+                                                We use only high-quality materials and hardware that meet
+                                                international standards.
+                                                Each product comes with a specific warranty period, covering
+                                                manufacturing defects.
+                                                Hardware and fittings used are often backed by global brand
+                                                warranties.
+                                                Our warranty ensures peace of mind and long-term satisfaction for
+                                                every customer.
+                                                We stand by the durability, finish, and performance of our products.
+                                                The warranty does not just cover structure—it includes hinges,
+                                                channels, and accessories too.
+                                                Our team provides clear documentation explaining what’s covered and
+                                                for how long.
+                                                If any issue arises within the warranty period, service is provided
+                                                promptly.
+                                                This policy reflects our commitment to quality and customer trust.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-4">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" style="height: 55px;" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <p class="text-19 text-start mt-2">2. How does Saviesa
+                                                handle
+                                                after-sales service and customer support?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-17">Saviesa has a dedicated after-sales service team
+                                                trained to handle customer queries efficiently.
+                                                We offer quick response times for repairs, replacements, or service
+                                                requests.
+                                                Our service process is designed to ensure minimum inconvenience to
+                                                customers.
+                                                Every customer is assigned a service reference number for easy
+                                                tracking.
+                                                We provide periodic maintenance tips to help keep your kitchen in
+                                                top condition.
+                                                Our service centers maintain readily available spare parts for quick
+                                                resolution.
+                                                Customers can reach us easily through phone, email, or in-store
+                                                visits.
+                                                Our goal is to build long-term relationships, not just complete a
+                                                sale.
+                                                Even after the warranty period, we offer affordable maintenance and
+                                                repair services.
+                                                At Saviesa, after-sales care is an extension of our promise of
+                                                excellence and reliability.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab" tabindex="0">
+                            <p class="text-16">Product Details</p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" style="height: 55px;" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <p class="text-19 text-start mt-2">1. What types of products does
+                                                Saviesa offer?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-17">Saviesa offers a wide range of modular home solutions
+                                                designed to make living beautiful and functional.
+                                                Our key offerings include modular kitchens, wardrobes, TV units, and
+                                                storage systems.
+                                                Each product is designed with a focus on aesthetics, utility, and
+                                                long-term durability.
+                                                We combine international design principles with Indian lifestyle
+                                                needs.
+                                                Our modular kitchens come in various layouts – L-shaped, U-shaped,
+                                                island, and straight.
+                                                We also provide custom-built wardrobes to maximize bedroom space
+                                                efficiently.
+                                                Saviesa offers innovative storage solutions for every corner of your
+                                                home.
+                                                All our products are designed using ergonomic planning for maximum
+                                                convenience.
+                                                We use precision manufacturing technology to achieve seamless
+                                                finishes.
+                                                Our range includes modern, contemporary, and classic design styles.
+                                                Customers can choose from a variety of finishes, including
+                                                laminates, acrylics, and veneers.
+                                                Every product is available in custom sizes and colors to suit
+                                                individual preferences.
+                                                We focus on functionality without compromising on beauty.
+                                                Our design experts guide customers in selecting the right
+                                                combinations.
+                                                Saviesa’s catalog evolves constantly with new trends and
+                                                innovations.
+                                                We also provide modular accessories and hardware for better
+                                                organization.
+                                                Each product is made to withstand Indian climate and usage
+                                                conditions.
+                                                We ensure easy maintenance and long-lasting performance.
+                                                Saviesa aims to make every home a perfect blend of comfort and
+                                                elegance.
+                                                That’s why our products stand for quality, innovation, and timeless
+                                                design.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-4">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" style="height: 55px;" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <p class="text-19 text-start mt-2">2. What materials are used in
+                                                Saviesa products, and how do they ensure quality?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-17">Saviesa uses only premium-quality materials sourced
+                                                from trusted suppliers worldwide.
+                                                Our modular furniture is primarily built using high-grade engineered
+                                                wood like MDF, HDF, and plywood.
+                                                We ensure each board is moisture-resistant, termite-proof, and
+                                                eco-friendly.
+                                                For surface finishes, we use European laminates, acrylics, veneers,
+                                                and PU coatings.
+                                                These finishes give our products a sleek, durable, and elegant
+                                                appearance.
+                                                Hardware fittings are imported from renowned global brands for
+                                                reliability.
+                                                We use soft-close hinges, telescopic channels, and sturdy handles in
+                                                every product.
+                                                Each component undergoes stringent quality checks before assembly.
+                                                Our manufacturing process follows ISO-certified standards for
+                                                precision and consistency.
+                                                We emphasize environmentally responsible production and minimal
+                                                waste.
+                                                All materials are tested for heat, humidity, and impact resistance.
+                                                We also offer anti-bacterial and scratch-resistant finishes for
+                                                added protection.
+                                                Our color and texture palettes are curated to match modern
+                                                interiors.
+                                                Every kitchen and wardrobe is custom-built to match customer needs.
+                                                By controlling every stage — from design to dispatch — we ensure
+                                                superior quality.
+                                                Our team of engineers and designers work closely to optimize
+                                                durability and function.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab" tabindex="0">
+                            <p class="text-16">Delivery Policies</p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" style="height: 55px;" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <p class="text-19 text-start mt-2">1.How does Saviesa manage delivery
+                                                and installation of products?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-17">Saviesa has a well-organized delivery and
+                                                installation process for every order.
+                                                Once your design and order are finalized, we provide a clear
+                                                delivery timeline.
+                                                All products are carefully packed at our manufacturing unit to
+                                                prevent damage.
+                                                Our in-house logistics team ensures safe and timely transportation
+                                                to your site.
+                                                We use GPS tracking and systematic scheduling to monitor deliveries.
+                                                On arrival, our trained installation experts handle the setup with
+                                                precision.
+                                                Every installation follows strict safety and quality guidelines.
+                                                We ensure minimum disruption to your home during installation.
+                                                A final quality inspection is done before handover to the customer.
+                                                This smooth process ensures a hassle-free experience from factory to
+                                                home.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-4">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" style="height: 55px;" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <p class="text-19 text-start mt-2">2.What are the timelines and policies
+                                                for Saviesa’s delivery?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-17">Saviesa provides clear and committed delivery
+                                                schedules for every customer.
+                                                The delivery timeline depends on product type, size, and
+                                                customization level.
+                                                Generally, our modular kitchens and wardrobes are delivered within
+                                                4–6 weeks.
+                                                We maintain transparent communication throughout the production and
+                                                delivery stages.
+                                                Customers receive real-time updates on their order and expected
+                                                delivery date.
+                                                All goods are shipped through verified transport partners to ensure
+                                                safety.
+                                                In case of unforeseen delays, our team provides prompt updates and
+                                                solutions.
+                                                We take full responsibility for any transit damage or product
+                                                mismatch.
+                                                Our goal is to ensure every customer receives their order on time
+                                                and in perfect condition.
+                                                Saviesa’s delivery policy reflects our commitment to reliability and
+                                                customer satisfaction.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-work" role="tabpanel" aria-labelledby="v-pills-work-tab"
+                            tabindex="0">
+                            <p class="text-16">Scope of Work</p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" style="height: 55px;" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <p class="text-19 text-start mt-2">1. What services does Saviesa provide
+                                                from start to finish?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-17">Saviesa offers a complete end-to-end service for
+                                                modular home interiors.
+                                                Our process begins with a free design consultation to understand
+                                                your needs.
+                                                We provide customized designs using advanced 3D visualization tools.
+                                                Our experts take accurate on-site measurements for perfect fitting.
+                                                Once finalized, all products are manufactured in our own facilities.
+                                                We handle delivery, installation, and post-installation support.
+                                                Our trained professionals ensure clean, hassle-free setup at your
+                                                home.
+                                                We also provide guidance on material selection and maintenance.
+                                                Customers are updated at every stage for transparent project
+                                                tracking.
+                                                From design to delivery — Saviesa ensures a smooth and satisfying
+                                                experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-4">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" style="height: 55px;" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <p class="text-19 text-start mt-2">2.How does Saviesa ensure quality and
+                                                customer satisfaction in its services?</p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-17">At Saviesa, quality and service excellence are our
+                                                top priorities.
+                                                Each project is handled by a dedicated team of designers and
+                                                technicians.
+                                                We follow strict quality checks at every step of production and
+                                                installation.
+                                                All materials used are tested for durability and performance.
+                                                Our installation team is professionally trained and experienced.
+                                                We ensure on-time delivery and precision fitting in every project.
+                                                Customers receive regular updates and progress reports.
+                                                We offer after-sales support and warranty services for peace of
+                                                mind.
+                                                Feedback is actively collected to improve our process continuously.
+                                                Our goal is to deliver not just products — but delightful living
+                                                spaces.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="eight-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col  col-md-6">
+                    <p class="text-20 text-start text-light fs-2 fw-normal">Ready to get Started?</p>
+                    <p class="text-21 text-start text-light fs-6">Your Saviesa listens to you, understands your specific
+                        wants and needs, and designs a kitchen that is 100% crafted for you.
+                    </p>
+                    <div class=" eight-rect  text-light rounded-4 p-4 text-center position-relative">
+                        <p class="mb-1 fs-5">Call us on Toll Free Number</p>
+                        <h5 class="fw-bold mb-1 fs-4">1800 22 5050</h5>
+                        <p class="mb-0 fs-5">Between 8:30AM to 5:30PM</p>
+                    </div>
+                    <p class="text-25 text-center fs-5 text-light">Visit a store near you using our <img
+                            src="/saviessa.image/Icon awesome-map-marker-alt.png" class="eight-map ms-1 me-2 "
+                            style="width:16px;"> Store Locator</p>
+                </div>
+                <div class="col col-md-6 d-flex justify-content-center">
+                    <div class="form-1">
+                        <form class="form-box mx-auto" style="width:380px; height:464px">
+                            <div class="form-subtitle mb-3" style="width:380px ; height:59px">
+                                <p class="text-3 text-center mb-0"><b>Our experts are here for you!<br>Get all your
+                                        queries
+                                        answered.</b></p>
+                            </div>
+                            <label for="name d-block">Name<span class="text0 text-danger">*</span></label>
+                            <input type="text" class="blurredinput ps-4" style="width:100%; height:38px"
+                                placeholder="Enter your full name" required>
+
+                            <label for="email d-block">Email<span class="text0 text-danger">*</span></label>
+                            <input type="email" class="blurredinput ps-4 " style="width:100%; height:38px"
+                                placeholder="Enter your email address" required>
+
+                            <label for="phone d-block">Phone No<span class="text0 text-danger">*</span></label>
+                            <div class="phone-box">
+                                <span class="country-code">+91</span>
+                                <input type="tel" class="blurredinput ps-2 " style="width:100%; height:38px"
+                                    placeholder="Enter your 10-digit contact number" maxlength="10" required>
+                            </div>
+                            <label for="city d-block">City<span class="text0 text-danger">*</span></label>
+                            <input type="text" class="city  mb-4 ps-4" style="width:100%; height:38px" id="blurredinput"
+                                placeholder="Enter your city" required>
+                            <button type="submit" class="sub-btn position-relative text-light d-block"
+                                style="width:150px; height:38px">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="nine-section">
+        <div class="container justify-content-center">
+            <div class="row ">
+                <div class="col col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="/saviessa.image/Image 15.png" alt="social-media" class="nine-media img-fluid">
+                </div>
+                <div class="col col-12  col-md-6 d-flex align-items-end">
+                    <p class="text-26 text-light ">© 2021 Saviesa. All Rights Reserved. <Span class="text-27">Privacy
+                            Policy | Terms Of Use | Sitemap</Span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
